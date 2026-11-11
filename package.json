@@ -14,8 +14,7 @@
     "build": "esbuild src/app.ts --bundle --platform=node --format=esm --outfile=dist/app.mjs --log-level=warning"
   },
   "dependencies": {
-    "@arraypress/user-agent": "^1.0.0",
-    "@hono/node-server": "^1.13.7",
+   @hono/node-server": "^1.13.7",   
     "@hono/swagger-ui": "^0.5.3",
     "@scalar/hono-api-reference": "^0.9.34",
     "hono": "^4.12.2",
