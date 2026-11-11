@@ -1,31 +1,31 @@
 {
-  "name": "pxve-api",
-  "version": "1.0.0",
-  "description": "A program that implements easy-to-use APIs for Pixiv-related websites, intended for use with the Pixiv Viewer. Node.js port (Vercel-ready).",
-  "type": "module",
-  "private": true,
-  "engines": {
-    "node": "22.x"
-  },
-  "scripts": {
-    "dev": "tsx watch src/local-server.ts",
-    "start": "tsx src/local-server.ts",
-    "type-check": "tsc --noEmit",
-    "build": "esbuild src/app.ts --bundle --platform=node --format=esm --outfile=dist/app.mjs --log-level=warning"
-  },
-  "dependencies": {
-   @"hono/node-server": "^1.13.7",   
-    "@hono/swagger-ui": "^0.5.3",
-    "@scalar/hono-api-reference": "^0.9.34",
-    "hono": "^4.12.2",
-    "hono-zod-openapi": "^1.0.1",
-    "isbot": "^5.1.32",
-    "zod": "^4.3.5"
-  },
-  "devDependencies": {
-    "@types/node": "^22.10.0",
-    "esbuild": "^0.24.0",
-    "tsx": "^4.19.0",
-    "typescript": "^5.7.0"
-  }
+    "name": "pxve-api",
+    "version": "1.0.0",
+    "description": "A program that implements easy-to-use APIs for Pixiv-related websites, intended for use with the Pixiv Viewer. Node.js port (Vercel-ready).",
+    "type": "module",
+    "private": true,
+    "engines": {
+          "node": "22.x"
+    },
+    "scripts": {
+          "dev": "tsx watch src/local-server.ts",
+          "start": "tsx src/local-server.ts",
+          "type-check": "tsc --noEmit",
+          "build": "esbuild src/app.ts --bundle --platform=node --format=esm --outfile=dist/app.mjs --log-level=warning"
+    },
+    "dependencies": {
+          "@hono/node-server": "^1.13.7",
+          "@hono/swagger-ui": "^0.5.3",
+          "@scalar/hono-api-reference": "^0.9.34",
+          "hono": "^4.12.2",
+          "hono-zod-openapi": "^1.0.1",
+          "isbot": "^5.1.32",
+          "zod": "^4.3.5"
+    },
+    "devDependencies": {
+          "@types/node": "^22.10.0",
+          "esbuild": "^0.24.0",
+          "tsx": "^4.19.0",
+          "typescript": "^5.7.0"
+    }
 }
